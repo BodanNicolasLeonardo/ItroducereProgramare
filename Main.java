@@ -1,10 +1,10 @@
 public class Main {
     public static void main(String[] args) {
-        Carte carte1 = new Carte(150);
-        Carte carte2 = new Carte(150);
-        Carte carte3 = new Carte(200);
+        Piramida p1 = new Piramida(4);
+        Piramida p2 = new Piramida(5);
 
-        System.out.println("Cartea 1 si Cartea 2 sunt identice: " + carte1.esteIdentica(carte2));
-        System.out.println("Cartea 1 si Cartea 3 sunt identice: " + carte1.esteIdentica(carte3));
+        p1.afiseaza();
+        System.out.println();
+        p2.afiseaza();
     }
 }
