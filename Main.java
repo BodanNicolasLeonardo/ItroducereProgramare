@@ -1,11 +1,10 @@
-
 public class Main {
-	public static void main(String[] args) {
-        Sertar sertar1 = new Sertar(40, 50, 20);
-        Sertar sertar2 = new Sertar(35, 45, 15);
+    public static void main(String[] args) {
+        Piramida p1 = new Piramida(4);
+        Piramida p2 = new Piramida(5);
 
-        Birou birou = new Birou(120, 60, 75, sertar1, sertar2);
-
-        birou.tipareste();
+        p1.afiseaza();
+        System.out.println();
+        p2.afiseaza();
     }
 }
